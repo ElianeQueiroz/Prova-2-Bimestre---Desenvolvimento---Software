@@ -26,6 +26,13 @@ namespace API.Controllers
                     new Categoria { CategoriaId = 3, Nome = "Desktop" },
                 }
             );
+            _context.FormaPagamentos.AddRange(new FormaPagamento[]
+                {
+                    new FormaPagamento { FormaPagamentoId = 1, Descricao = "Dinheiro" },
+                    new FormaPagamento { FormaPagamentoId = 2, Descricao = "Cartao" },
+                    new FormaPagamento { FormaPagamentoId = 3, Descricao = "Boleto" },
+                }
+            );
             _context.Produtos.AddRange(new Produto[]
                 {
                     new Produto { ProdutoId = 1, Nome = "Mouse", Preco = 50, Quantidade = 100, CategoriaId = 1 },

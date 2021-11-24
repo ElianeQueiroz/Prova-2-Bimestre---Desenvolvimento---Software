@@ -1,0 +1,16 @@
+### Cadastrar um novo Forma Pagamento
+POST https://localhost:5001/api/formapagamento/create
+Content-Type: application/json
+
+### Listar todos as formas de pagamento
+GET https://localhost:5001/api/formapagamento/list
+
+### Buscar forma de pagamento pelo id
+GET https://localhost:5001/api/formapagamento/getbyid/1
+
+### Deletar forma de pagamento pelo nome
+DELETE https://localhost:5001/api/formapagamento/delete/
+
+### Alterar formapagamento
+PUT https://localhost:5001/api/formapagamento/update
+Content-Type: application/json
