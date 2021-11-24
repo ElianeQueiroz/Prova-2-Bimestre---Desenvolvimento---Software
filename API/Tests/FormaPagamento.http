@@ -9,7 +9,7 @@ GET https://localhost:5001/api/formapagamento/list
 GET https://localhost:5001/api/formapagamento/getbyid/1
 
 ### Deletar forma de pagamento pelo nome
-DELETE https://localhost:5001/api/formapagamento/delete/
+DELETE https://localhost:5001/api/formapagamento/delete/Boleto
 
 ### Alterar formapagamento
 PUT https://localhost:5001/api/formapagamento/update
