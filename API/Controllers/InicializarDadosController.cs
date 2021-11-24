@@ -28,7 +28,6 @@ namespace API.Controllers
                 {
                     new FormaPagamento { FormaPagamentoId = 1, Descricao = "Dinheiro" },
                     new FormaPagamento { FormaPagamentoId = 2, Descricao = "Cartao" },
-                    new FormaPagamento { FormaPagamentoId = 3, Descricao = "Boleto" },
                 }
             );
             _context.Produtos.AddRange(new Produto[]
